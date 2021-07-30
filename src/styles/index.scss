@@ -1,0 +1,60 @@
+@import "~bootstrap/scss/bootstrap.scss";
+
+
+
+.navbar{
+    font-family: 'Quicksand', sans-serif;
+    background-color: #ffffff !important;
+}
+
+.nav-logo{
+    width: 85px;
+}
+.hero-container {
+    // background: url('../img/CoverHero.png') center center/cover no-repeat;
+    height: 100vh;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      object-fit: contain;
+      
+    }
+    
+    .hero-container >  h1 {
+      color:#7D1FC9;
+      font-size: 100px;
+      margin-top: -100px;
+      font-family: 'Quicksand', sans-serif;
+    }
+    
+    .hero-container >  p {
+      margin-top: 8px;
+      color: rgb(97, 96, 96);
+      font-size: 32px;
+      font-family: 'Quicksand', sans-serif;
+    }
+    
+    .hero-container > img {
+      width: 400px;
+      height: 400px;
+    }
+
+    .card{
+        padding-top: 100px;
+        width: 18rem;
+    }
+    
+    .card-deck .card-title{
+        font-size: 25px;
+        font-family: 'Quicksand', sans-serif;
+    }
+
+    .feauture{
+        color: rgb(97, 96, 96);
+        padding-top: 100px;
+        padding-bottom: 50px;
+        font-size: 20px;
+        font-family: 'Quicksand', sans-serif;
+    }
